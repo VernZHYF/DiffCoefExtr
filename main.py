@@ -4,8 +4,8 @@ from normFit import *
 
 # fixed parameter
 Dd = 0.01
-timeSteps = 80
-numCases = 16
+timeSteps = 400
+numCases = 20
 
 path = sys.argv[1]
 
