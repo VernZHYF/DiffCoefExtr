@@ -14,7 +14,7 @@ import numpy as np
 
 # 80 - 80个时间步，40 - 40个暂定平均样本空间，400 - 竖向的总的网格数
 def dataExtr(path, timeSteps, numCases):
-    dataSets = np.zeros((80, 40, 400), dtype=np.float64)
+    dataSets = np.zeros((timeSteps, numCases, 400), dtype=np.float64)
     # i - 时间戳， j - 样本序列
     i = 0
     j = 0
