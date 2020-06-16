@@ -9,7 +9,7 @@ numCases = 16
 
 
 
-dataSets = dataExtr()
+dataSets = dataExtr(path, timeSteps, numCases)
 stdList = []
 x = np.linspace(0, timeSteps, timeSteps)
 for i in range(timeSteps):
