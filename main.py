@@ -7,7 +7,7 @@ Dd = 0.01
 timeSteps = 80
 numCases = 16
 
-
+path = sys.argv[1]
 
 dataSets = dataExtr(path, timeSteps, numCases)
 stdList = []
